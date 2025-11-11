@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    
+}
+body{
+    margin: 0;
+    
+}
+.nav-logo img{
+    /* width: 20%;
+    height: 10%; */
+    width: 90px;
+
+}
+
+.navbar h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform:uppercase;
+
+}
+
+
+
+.nav-menu a{
+    color:white ;
+    background-color:#40868b ;
+    font-size: 1.rem;
+    text-decoration: none;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.nav-menu a:hover{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile */
+
+
+[class*="col-"]{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color:#0c6168 ;
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+/* dropdown menu design here */
+
+
+.navbar .nav-menu .dropdown-content{
+ display: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Profile design start here */
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+    
+}
+
+.profile-des{
+    padding: 150px 20px;
+    position: relative;
+    text-align: center;
+
+}
+
+.profile-des .top-w-icon{
+    width: 100px;
+    position: absolute;
+    right: 60px;
+    top:20px;
+    transition: transform 2s;
+}
+
+.profile-des .top-w-icon:hover{
+    transform: rotate(360deg);
+
+}
+
+/* bottom icon transition */
+
+.profile-des .bottom-w-icon{
+    width: 100px;
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    transition: transform 2s;
+}
+
+.profile-des .bottom-w-icon:hover{
+    transform: rotate(-360deg);
+}
+
+
+
+
+
+.profile-heading h1{
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 3rem;
+
+}
+
+.profile-heading p{
+    margin: 0 auto 20px auto;
+    width: 90%;
+    color: gray;
+    text-align: center;
+}
+
+
+
+
+
+/* Profile design start here */
+
+
